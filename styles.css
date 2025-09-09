@@ -1,1 +1,70 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+
+:root{
+    --bg-color: #9b80d9;
+    --text-color: rgb(32, 22, 77);
+    --accent-color: #edcdf6;
+
+}
+body{
+    
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    padding-top: 100px; /* prevent content from going under navbar */
+
+    /* Customize the default size, color, and font for text*/
+    font-size: 16px;
+    color: var(--text-color);
+    margin: 0;
+    
+}
+.header-container{
+    display:flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 100px;
+}
+.form-container{
+   display:flex;
+    flex-direction: column; 
+    align-items: center;  
+}
+button{
+    display:flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: var(--text-color);
+    margin: 5px; 
+    color: var(--accent-color);
+    padding: 5px 10px; /* controls the shape */
+    border: none;
+    border-radius: 999px; /* makes it oval */
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
